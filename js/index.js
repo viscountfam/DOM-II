@@ -20,7 +20,7 @@ map.addEventListener("mouseleave", () => {
 
 const welcome = document.querySelector(".intro h2");
 welcome.addEventListener("click", () => {
-    welcome.textContent = "Benvenuti al pullman divertente";
+    welcome.textContent = "Benvenuti al autobus divertente";
 })
 
 welcome.addEventListener("dblclick", () => {
@@ -63,7 +63,7 @@ img.forEach(el => {
 
   })
 
-  var randomColor = Math.floor(Math.random()*16777215).toString(16);
+  let randomColor = Math.floor(Math.random()*16777215).toString(16);
 
   const destinationText = document.querySelector(".destination h4");
   destinationText.addEventListener("cut", () => {
